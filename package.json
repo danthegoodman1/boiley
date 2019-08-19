@@ -1,0 +1,37 @@
+{
+  "name": "boiley",
+  "version": "1.0.0",
+  "description": "Code boilerplate utility written in Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danthegoodman1/boiley.git"
+  },
+  "keywords": [
+    "boilerplate",
+    "schematic",
+    "boiler",
+    "plate",
+    "framework",
+    "example"
+  ],
+  "author": "Dan Goodman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danthegoodman1/boiley/issues"
+  },
+  "homepage": "https://github.com/danthegoodman1/boiley#readme",
+  "bin": {
+    "boiley": "bin/boiley.js"
+  },
+  "preferGlobal": true,
+  "engines": {
+    "node": ">=8"
+  },
+  "dependencies": {
+    "yargs": "^13.3.0"
+  }
+}
